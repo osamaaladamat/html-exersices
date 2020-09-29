@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise #4: Subscription form</title>
+</head>
+<style>
+    fieldset{
+        background-color:#ffffca;
+        
+    }
+    form{
+        width: 400px;
+        margin:auto;
+    }
+    .Subsc{
+        text-align:center;
+    }
+    .Reg{
+        text-align:center;
+    }
+    input[type=text]{
+        margin-left: 22px;
+    }
+</style>
+<body>
+    <form>
+    <fieldset>
+        <legend>Personal details</legend>
+        <div class="Reg">
+    <label>First name: </label>
+    <input type="text"><br>
+    <label>Last name: </label>
+    <input type="text"><br>
+    <label>Email address: </label>
+    <input type="email"><br>
+    <label>Gender: </label>
+    <input type="radio" name="gender" value="male">
+    <label>Male </label>
+    <input type="radio"  name="gender" value="Female">
+    <label>Female </label>
+    </div>
+    </fieldset>
+    <fieldset>
+        <legend>Magazines</legend>
+    <input type="checkbox">
+    <label> Stavanger Aftenblad</label><br>
+    <input type="checkbox">
+    <label> Teknisk Ukeblad</label><br>
+    <input type="checkbox">
+    <label> Se og Hor</label><br>
+    <input type="checkbox">
+    <label> Familien</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Subscription</legend>
+        <div style="text-align:center">
+    <label> Period: </label>
+    <select id="cars">
+        <option>6 months</option>
+        <option>12 months</option>
+        <option>18 months</option>
+        <option>24 months</option>
+    </select>
+   </div>
+    </fieldset>
+    <div style="text-align:center">
+        <input  type="submit" value="Subscribe">
+    </div>
+    
+    
+</form>
+</body>
+</html>
